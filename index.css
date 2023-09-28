@@ -1,0 +1,19 @@
+.vector-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -4.17%;
+  right: 0%;
+  bottom: 4.17%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.add-circle-outline {
+  position: relative;
+  width: 100%;
+  height: 24px;
+  overflow: hidden;
+}

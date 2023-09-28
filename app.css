@@ -1,0 +1,63 @@
+.app-child {
+  position: absolute;
+  top: 98px;
+  left: 52px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 280px;
+  height: 280px;
+}
+.piza-1-icon {
+  position: absolute;
+  top: 106px;
+  left: 56px;
+  border-radius: 150px;
+  width: 273px;
+  height: 272px;
+  object-fit: cover;
+}
+.getstartbutton-icon {
+  position: absolute;
+  top: 653px;
+  left: 46px;
+  border-radius: var(--br-xl);
+  width: 299px;
+  height: 79px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.getstartbutton-icon:hover {
+  background-color: #16256f;
+}
+.get-start {
+  position: absolute;
+  top: 666px;
+  left: 126px;
+}
+.enjoy {
+  margin: 0;
+}
+.enjoy-your-day-container {
+  position: absolute;
+  top: 443px;
+  left: 112px;
+  font-size: 40px;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.app {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(
+    185.58deg,
+    rgba(78, 22, 69, 0.89),
+    rgba(41, 75, 193, 0.63)
+  );
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

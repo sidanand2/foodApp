@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./app.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="app-child"></div>
+      <img class="piza-1-icon" alt="" src="./public/undefined8.png" />
+
+      <img
+        class="getstartbutton-icon"
+        alt=""
+        src="./public/undefined9.png"
+        id="getStartButton"
+      />
+
+      <div class="get-start">Get Start</div>
+      <div class="enjoy-your-day-container">
+        <p class="enjoy">Enjoy</p>
+        <p class="enjoy">Your Day</p>
+      </div>
+    </div>
+
+    <script>
+      var getStartButton = document.getElementById("getStartButton");
+      if (getStartButton) {
+        getStartButton.addEventListener("click", function (e) {
+          window.location.href = "./main-page.html";
+        });
+      }
+    </script>
+  </body>
+</html>

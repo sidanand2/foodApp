@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "foodApp",
+    "id": "6515185fd8c9ca1ccabb9172",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\Siddhanand\\Desktop\\foodApp\\src\\components",
+    "screensPath": "c:\\Users\\Siddhanand\\Desktop\\foodApp\\src\\pages"
+  }
+}
